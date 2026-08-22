@@ -1,6 +1,6 @@
 import animals as an
 import adopter as ad 
-import my_exc
+import my_exc  #this module contains our local exceptions.
 
 class Shelter:
     def __init__(self):
@@ -107,6 +107,7 @@ class Shelter:
                 raise my_exc.AddoptionNotVerified
 
             adopter.adopted_animals_count -= 1
+            adopter.adopted_animals.remove(animal)
             animal.is_adopted = False 
             print(f"{animal.name} was returned to shelter.")
         except my_exc.AddoptionNotVerified:
