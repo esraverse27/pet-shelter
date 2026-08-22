@@ -31,6 +31,7 @@
   </h3>
   <P>
     "my_exc": contains personal errors.
+    <br>
     "decorators": contains decorators needed for checking user input verification.
   </P>
   <h3>
