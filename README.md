@@ -5,6 +5,7 @@
   <h1>
     pet shelter project
   </h1>
+  <br>
   <h2>
     how does it work?
   </h2>
