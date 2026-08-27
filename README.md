@@ -8,7 +8,6 @@
   <h2>
     how does it work?
   </h2>
-  <br>
   <p>
     <h3>
     the classes_
